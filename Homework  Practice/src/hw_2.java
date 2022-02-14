@@ -25,18 +25,20 @@ public class hw_2 {
 		facts[2] = keyboard.nextLine();
 		
 		//Display student credentials
-		System.out.println("Your Student Info:");
+		System.out.println("\n" + "\n" + "\n" + "Your Student Info:" + "\n");
 		System.out.println(facts[0]);
 		System.out.println(facts[1]);
 		System.out.println(facts[2]);
 		
+		//Close keyboard scanner to use less space
 		keyboard.close();
 		
-		
 		//Ending math equation
-		
-		
+		int x = 8;
+		int y = 5;
 
+		System.out.println("\n" + x * y);
+		
 	}
 
 }
